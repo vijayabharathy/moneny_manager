@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Money Manager  </string>
+    <string name="app_description">Helps to manage daily expensive</string>
+    <string name="form_description">Add Todays Expensive</string>
+    <string name="addAmount">Amount spend...</string>
+    <string name="expensiveReason">Reason .. !</string>
+    <string name="save_expensive">Save Expensive</string>
+    <string name="button_bg_color">orange</string>
+    
+    <!-- # Expensive type -->
+    <string name="expensiveType">Specify Type of Expensive</string>
+    <string name="expensivetype1">UnAvoidable</string>
+    <string name="expensivetype2">Needs To Avoid</string>
+    <string name="expensivetype3">Investment</string>
+    <string name="expensivetype4">UnWanted</string>
+    
+    
+</resources>

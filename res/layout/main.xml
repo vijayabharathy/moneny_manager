@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:id="@+id/FormDescription"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:text="@string/form_description"  
+    android:textSize="10pt">  
+</TextView>     
+
+<TextView  
+    android:id="@+id/out_text"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:textSize="10pt">  
+</TextView>     
+
+<EditText  
+     android:id="@+id/AddAmount"  
+     android:layout_height="wrap_content"  
+     android:hint="@string/addAmount"  
+     android:inputType="number|numberSigned|numberDecimal"  
+     android:layout_width="fill_parent"
+/>  
+<EditText  
+     android:id="@+id/AddReason"  
+     android:layout_height="wrap_content"  
+     android:hint="@string/expensiveReason"  
+     android:inputType="text|textMultiLine"  
+     android:minLines="3"
+   	 android:gravity="top"
+     android:layout_width="fill_parent"
+/> 
+
+<Spinner
+	android:id="@+id/ExpensiveType"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:prompt="@string/expensiveType"
+	android:entries="@array/expensivetypelist"
+/>
+<Button
+	android:id="@+id/saveExpensive"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/save_expensive"
+	android:textColor="#FBB117"
+	
+/>
+
+
+</LinearLayout>
